@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0F0D13;
+    color: #FDFCFE;
+    font-family: 'Inter', sans-serif;
+    padding: 0 10vw;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #FDFCFE;
+    padding: 8px;
+}
+
+th {
+    padding: 12px 8px;
+    text-align: left;
+    background-color: #9E3AFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+header img {
+    height: 64px;
+}
+
+header .btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #FDFCFE;
+    text-decoration: none;
+    background-color: #9E3AFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+main #article,
+main #commentaires {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main #article img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+main #article h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+main #article div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+main #commentaires div {
+    display: flex;
+    flex-direction: column;
+    background-color: #9E3AFF;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 8px;
+}
+
+main #commentaires div p {
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+footer ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #FDFCFE;
+}
+
+footer ul li a:hover {
+    color: #9E3AFF;
+}
